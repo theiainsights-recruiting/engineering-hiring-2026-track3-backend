@@ -1,0 +1,28 @@
+{
+  "C001": [
+    {"level": "sector", "tiic_id": "information-technology", "name": "Information Technology"},
+    {"level": "industry", "tiic_id": "software-services", "name": "Software & Services"},
+    {"level": "sub_industry", "tiic_id": "infrastructure-software", "name": "Infrastructure Software"},
+    {"level": "major_theme", "tiic_id": "cloud-computing", "name": "Cloud Computing"},
+    {"level": "micro_theme", "tiic_id": "edge-computing", "name": "Edge Computing"},
+    {"level": "micro_theme", "tiic_id": "serverless", "name": "Serverless"}
+  ],
+  "C002": [
+    {"level": "sector", "tiic_id": "materials", "name": "Materials"},
+    {"level": "industry", "tiic_id": "metals-mining", "name": "Metals & Mining"},
+    {"level": "sub_industry", "tiic_id": "specialty-mining", "name": "Specialty Mining"},
+    {"level": "major_theme", "tiic_id": "battery-materials", "name": "Battery Materials"},
+    {"level": "micro_theme", "tiic_id": "lithium-mining", "name": "Lithium Mining"}
+  ],
+  "C003": [
+    {"level": "sector", "tiic_id": "industrials", "name": "Industrials"},
+    {"level": "industry", "tiic_id": "capital-goods", "name": "Capital Goods"},
+    {"level": "sub_industry", "tiic_id": "industrial-machinery", "name": "Industrial Machinery"},
+    {"level": "major_theme", "tiic_id": "nuclear-energy", "name": "Nuclear Energy"},
+    {"level": "micro_theme", "tiic_id": "nuclear-energy", "name": "Nuclear Energy"}
+  ],
+  "C004": [
+    {"level": "sector", "tiic_id": "health-care", "name": "Health Care"},
+    {"level": "industry", "tiic_id": "biotech", "name": "Biotechnology"}
+  ]
+}
