@@ -29,6 +29,8 @@ _API_KEYS: dict[str, dict] = {
 
 
 def theme_exists(tiic_id: str) -> bool:
+    # The theme catalogue (~2,000 ids) is held in memory from startup, so
+    # this is a set lookup, not I/O; only per-theme rows go to the store.
     return tiic_id in _THEMES
 
 
