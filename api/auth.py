@@ -13,8 +13,8 @@ class Customer:
     entitled_sectors: frozenset[str]
 
 
-async def get_customer(x_api_key: str = Header()) -> Customer:
-    record = await lookup_api_key(x_api_key)
+async def get_customer(x_api_key: str | None = Header(default=None)) -> Customer:
+    record = await lookup_api_key(x_api_key) if x_api_key else None
     if record is None:
         raise HTTPException(status_code=401)
     return Customer(
